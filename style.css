@@ -32,50 +32,57 @@ body {
   width: 450px;
   padding: 30px;
   border-radius: 10px;
-  .content {
-    text-align: center;
-    img {
-      width: 100px;
-      border-radius: 50%;
-    }
-    h2 {
-      color: var(--White);
-      margin: 10px auto;
-    }
-    .london {
-      color: var(--Green);
-      font-size: 14px;
-    }
-    .front {
-      color: var(--White);
-      margin: 20px auto 10px;
-      font-size: 14px;
-      opacity: 0.8;
-    }
-  }
-  .acconts {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    button {
-      margin: 10px 0;
-      display: block;
-      align-items: center;
-      padding: 20px;
-      color: white;
-      background-color: var(--Grey);
-      border: none;
-      border-radius: 10px;
-      transition: 0.3s;
-      a {
-        color: white;
-        text-decoration: none;
-        font-size: 14px;
-        font-weight: 600;
-        transition: 0.3s;
-      }
-    }
-  }
+}
+.content {
+  text-align: center;
+}
+
+.content img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.content h2 {
+  color: var(--White);
+  margin: 10px auto;
+}
+
+.content .london {
+  color: var(--Green);
+  font-size: 14px;
+}
+
+.content .front {
+  color: var(--White);
+  margin: 20px auto 10px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.acconts {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.acconts button {
+  margin: 10px 0;
+  display: block;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  background-color: var(--Grey);
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.acconts a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s;
 }
 
 .acconts button:hover {
