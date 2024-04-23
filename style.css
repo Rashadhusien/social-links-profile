@@ -29,7 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--Dark-Grey);
-  width: 450px;
+  width: 430px;
   padding: 30px;
   border-radius: 10px;
 }
